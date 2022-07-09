@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Edu+QLD+Beginner:wght@700&display=swap');
+
+.container{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Edu QLD Beginner', cursive;
+    padding-top: 30px;
+    max-width: 750px;
+    margin: auto;
+}
+
+.info p{
+    color:rgb(94, 152, 241);
+}
+
+.info h2{
+    color:rgb(172, 23, 185);
+}
+
+.info h1{
+    color:rgb(172, 23, 185);
+}
+
+.card h2{
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.avatar{
+    height: 250px;
+}
+
+.info{
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    display: flex;
+}
+
+.info-text{
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: rgb(110, 160, 235);
+}
+
+a:visited{
+    color: rgb(110, 160, 235);
+}
+
+.card{
+    padding: 15px 20px;
+    background: red;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: antiquewhite;
+}
+
+.bg-purple{
+    background-color: rgb(162, 78, 204);
+}
+
+.bg-pink{
+    background-color: rgb(230, 121, 230);
+}
+
+.bg-blue{
+    background-color: rgb(76, 76, 201);
+}
+
+.bg-violet{
+    background-color: rgb(59, 45, 125);
+}
+
+.list li{
+    color: rgb(255, 250, 250);
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.table{
+    width: 100%;
+    margin-left: 20px;
+}
+
+.table td:nth-child(1),
+.table td:nth-child(2),
+.table td:nth-child(3){
+    color: white;
+}
+
+.link-list{
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.link-list li{
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.card h3{
+    text-align: center;
+}
+
+.form-group label{
+    display: block;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px dashed #ccc;
+    padding: 15px 0 10px;
+    font-family: inherit;
+    background: transparent;
+    outline: none;
+    color: inherit;
+}
+
+.text-area{
+    margin-top: 20px;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child{
+    margin-left: 0;
+}
+
+.btn{
+    color:antiquewhite;
+    background: rgb(34, 19, 101);
+    font-family: inherit;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 20px;
+    border-color: antiquewhite;
+    border-width: 1px;
+    border-radius: 50%;
+    border-style: dashed;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
